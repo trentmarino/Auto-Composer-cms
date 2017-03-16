@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "ad6f493b8307cd0b55e1b5a5d14fc108",
+    "content-hash": "fcb1974381865e8b526949be6e8bac24",
     "packages": [
         {
             "name": "composer/installers",
