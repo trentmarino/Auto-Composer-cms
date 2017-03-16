@@ -19,5 +19,5 @@ web/.htaccess
 vendor/*
 !vendor/.gitkeep
 
-!web/app/mu-plugins/wp-sync-db-master
-!web/app/mu-plugins/wp-sync-db-media-files-master
+!web/app/plugins/wp-sync-db-master
+!web/app/plugins/wp-sync-db-media-files-master
