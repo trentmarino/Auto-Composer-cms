@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"E:/Auto-composer-cms/Auto-Composer-cms","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/Auto-composer-cms/Auto-Composer-cms","disabled":false,"__vagrantfile":true}}}
