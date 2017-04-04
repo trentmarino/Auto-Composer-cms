@@ -388,4 +388,19 @@ function sydney_recommend_plugin() {
 
     tgmpa( $plugins);
 
+/*------------------------------------*\
+	SMTP Credentials
+\*------------------------------------*/
+add_action( 'phpmailer_init', 'wph_phpmailer_init' );
+function wph_phpmailer_init( PHPMailer $phpmailer ) {
+    $phpmailer->IsSMTP();
+    $phpmailer->setFrom('trent.marino@my.jcu.edu.au', 'No-Reply');
+    $phpmailer->SMTPAuth = true; // enable SMTP authentication
+    $phpmailer->Port = 587; // set the SMTP server port
+    $phpmailer->Host = 'email-smtp.us-west-2.amazonaws.com'; // SMTP server
+    $phpmailer->Username = 'AKIAJ5LQI25KYJ7ZMEUQ'; // SMTP server username
+    $phpmailer->SMTPSecure = 'tls';
+    $phpmailer->Password = 'Ah3rZWlL59OPxfsf+MH57jNYFRC4b4SJWH2v1yRKEJH+'; // SMTP server password
+}
+
 }
